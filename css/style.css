@@ -69,8 +69,21 @@ header {
 .texts .texts__copy {
   font-size: 18px;
   color: #000;
-
   text-align: center;
+}
+
+.texts-ox{
+  font-size: 18px;
+}
+
+.texts__copy-ox{
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+
+}
+
+.ot{
+  border: 5px solid rgb(153, 11, 33);
 }
 
 .section {
@@ -198,45 +211,6 @@ header {
   float: left;
   font-family: "Raleway", sans-serif;
   font-size: 1.1em;
-}
-
-.progress .progress-bar,
-.progress .progress-bar.progress-bar-default {
-  background: linear-gradient(
-    90deg,
-    rgba(179, 83, 75, 1) 0%,
-    rgba(121, 9, 26, 1) 48%
-  );
-}
-.progress .progress-bar {
-  animation-name: animateBar;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-in;
-  animation-duration: 1s;
-}
-
-/* ----------------------------- Personal Skills ---------------------------- */
-.progress-container {
-  padding: 10px;
-}
-
-.progress {
-  border-radius: 10px;
-  height: 15px;
-}
-
-.progress-badge {
-  padding-left: 10px;
-}
-
-.skill-name {
-  text-transform: uppercase;
-  margin-left: 10px;
-  padding-left: 10px;
-  padding-top: 2.5px;
-  float: left;
-  font-family: "Raleway", sans-serif;
-  font-size: 16px;
 }
 
 .progress .progress-bar,
