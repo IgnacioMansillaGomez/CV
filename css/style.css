@@ -69,7 +69,8 @@ header {
 .texts .texts__copy {
   font-size: 18px;
   color: #000;
-  text-align: center;
+  /* text-align: center; */
+  text-align: justify;
 }
 
 .texts-ox {
@@ -514,7 +515,13 @@ header {
   }
 }
 
-/* ----------------------------- MAX-WIDTH 992PX ---------------------------- */
+/* ----------------------------- MIN-WIDTH 780PX --------------------------- */
+
+@media screen and (max-width: 780px) {
+  .texts .texts__copy {
+    text-align: center;
+  }
+}
 
 /* ---------------------------- MAX-WIDTH 1200PX ---------------------------- */
 
