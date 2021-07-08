@@ -30,7 +30,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 header {
-  background-image: url(/img/fancy-pants.jpg);
+  background-image: url(../img/fancy-pants.jpg);
   margin-top: -50px;
   padding: 30px 0;
 }
@@ -72,17 +72,16 @@ header {
   text-align: center;
 }
 
-.texts-ox{
+.texts-ox {
   font-size: 18px;
 }
 
-.texts__copy-ox{
+.texts__copy-ox {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-
 }
 
-.ot{
+.ot {
   border: 5px solid rgb(153, 11, 33);
 }
 
