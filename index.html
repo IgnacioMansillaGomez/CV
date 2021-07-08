@@ -1,449 +1,625 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/aos.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <noscript>
+      <style type="text/css">
+        [data-aos] {
+          opacity: 1 !important;
+          transform: translate(0) scale(1) !important;
+        }
+      </style>
+    </noscript>
+    <title>Ignacio Mansilla CV</title>
+  </head>
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-  <link rel="stylesheet" href="/css/aos.css" />
-  <link rel="stylesheet" href="css/style.css" />
-  <noscript>
-    <style type="text/css">
-      [data-aos] {
-        opacity: 1 !important;
-        transform: translate(0) scale(1) !important;
-      }
-    </style>
-  </noscript>
-  <title>Ignacio Mansilla CV</title>
-</head>
+  <body>
+    <!-- ------------------------------- HEADER -------------------------------- -->
 
-<body>
-  <!-- ------------------------------- HEADER -------------------------------- -->
-
-  <header id="header">
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top back" aria-label="Fifth navbar example">
+    <header id="header">
+      <nav
+        class="navbar navbar-expand-lg navbar-dark fixed-top back"
+        aria-label="Fifth navbar example"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Ignacio Mansilla</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarsExample05"
+            aria-controls="navbarsExample05"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon tog"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarsExample05">
+            <ul class="navbar-nav me-5 mb-2 mb-lg-0 ms-auto" id="main_nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#sobreMi">Acerca de mí</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skill">Habilidades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#education">Estudios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+              <li class="addItem">
+                <a
+                  class="fa fa-linkedin-square linkd"
+                  href="https://www.linkedin.com/in/ignacio-mansilla-gomez-3502551a3/"
+                ></a>
+                <a class="fa fa-envelope-o mail" href="#contacto"></a>
+                <a
+                  class="fa fa-github-square git"
+                  href="https://github.com/IgnacioMansillaGomez"
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Ignacio Mansilla</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample05"
-          aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon tog"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarsExample05">
-          <ul class="navbar-nav me-5 mb-2 mb-lg-0 ms-auto" id="main_nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#sobreMi">Acerca de mí</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#skill">Habilidades</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#education">Estudios</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#portfolio">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contacto">Contacto</a>
-            </li>
-            <li class="addItem">
-              <a class="fa fa-linkedin-square linkd"
-                href="https://www.linkedin.com/in/ignacio-mansilla-gomez-3502551a3/"></a>
-              <a class="fa fa-envelope-o mail" href="#contacto"></a>
-              <a class="fa fa-github-square git" href="https://github.com/IgnacioMansillaGomez"></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <div class="container-fluid">
-      <div class="row main__container mt-5" id="main">
-        <div class="col-12 col-sm-12 col-md-12 col-lg-4 header__container-img" data-aos="fade-up">
-          <img src="./img/Foto_CV_P.png" class="header__img" />
-        </div>
-        <div class="col-12 col-sm-12 col-md-12 col-lg-8">
-          <h1 class="main__name neonText">Ignacio Mansilla</h1>
-          <h3 class="main__sub neonText">Full-Stack Developer</h3>
-        </div>
-      </div>
-    </div>
-  </header>
-  <section>
-    <div class="button-container">
-      <a class="fa fa-linkedin-square linkd" href="https://www.linkedin.com/in/ignacio-mansilla-gomez-3502551a3/"
-        target="_blank"></a>
-      <a class="fa fa-envelope-o mail" href="#contacto"></a>
-      <a class="fa fa-github-square git" href="https://github.com/IgnacioMansillaGomez" target="_blank"></a>
-      <a class="fa fa-download git" href="#"></a>
-    </div>
-  </section>
-  <!-- ------------------------ Personal Information ------------------------- -->
-  <section class="mt-5" id="sobreMi">
-    <div class="container">
-      <div class="h3 text-center mb-4 title">Sobre Mí</div>
-      <div class="card shadow p-3 mb-5 bg-body rounded" data-aos="fade-right" data-aos-duration="1300">
-        <div class="card-body">
-          <div class="row">
-            <div class="col-12 texts">
-              <p class="texts__copy">
-                Hola! Soy Ignacio tengo 24 años y soy programador
-                Full-Stack orientado a Front-end. Desde pequeño soy un apasionado
-                de la Programación y mis ganas de aprender me impulsaron al aprendizaje de
-                forma autodidacta hasta mi ingreso a la Universidad, donde profundice
-                mis conocimientos técnicos. Estoy cursando la tesis de la
-                <strong>Tecnicatura Universitaria en Programación</strong> en la <br><strong>Universidad Tecnológica
-                  Nacional</strong>.
-                En la actualidad realizo proyectos de manera constante para entrenar mis
-                habilidades adquiridas e incorporar nuevos conocimientos y buenas prácticas.
-                Además estoy perfeccionado mi <strong>inglés</strong> cursando los últimos niveles.
-
-              </p>
-            </div>
+        <div class="row main__container mt-5" id="main">
+          <div
+            class="col-12 col-sm-12 col-md-12 col-lg-4 header__container-img"
+            data-aos="fade-up"
+          >
+            <img
+              src="./img/Foto_CV_P-removebg-preview.png"
+              class="header__img"
+            />
+          </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-8">
+            <h1 class="main__name neonText">Ignacio Mansilla</h1>
+            <h3 class="main__sub neonText">Full-Stack Developer</h3>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- End Personal Section -->
-  <!-- ----------------------- OBJECTIVE ------------------------ -->
-  <section class="mt-5" id="objective">
-    <div class="container">
-      <div class="h3 text-center mb-4 title">Objetivo</div>
-      <div class="card shadow p-3 mb-5 bg-body rounded ot" data-aos="fade-up" data-aos-duration="1300">
-        <div class="card-body">
-          <div class="row">
-            <div class="col-12 texts-ox">
-              <p class="texts__copy-ox">
-                Ingresar en el mundo laboral para desarrollar mis conocimientos y habilidades , así como
-                también, adquirir experiencia en las tecnologías actuales y metologías de trabajo.
-                Demostrar mi capacidad de trabajo en equipo, proactividad y ganas de seguir aprendiendo.
-              </p>
-            </div>
-          </div>
-        </div>
+    </header>
+    <section>
+      <div class="button-container">
+        <a
+          class="fa fa-linkedin-square linkd"
+          href="https://www.linkedin.com/in/ignacio-mansilla-gomez-3502551a3/"
+          target="_blank"
+        ></a>
+        <a class="fa fa-envelope-o mail" href="#contacto"></a>
+        <a
+          class="fa fa-github-square git"
+          href="https://github.com/IgnacioMansillaGomez"
+          target="_blank"
+        ></a>
+        <a class="fa fa-download git" href="#"></a>
       </div>
-    </div>
-  </section>
-  <!--END-OBJECTIVE-->
-  <!-- ----------------------- SKILLS ------------------------ -->
-  <section class="section mt-5" id="skill">
-    <div class="container">
-      <div class="h3 text-center mb-4 title">Habilidades</div>
-      <div class="card shadow p-3 mb-5 bg-body rounded" data-aos="fade-right" data-aos-duration="1500">
-        <div class="card-body">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="progress-container">
-                <span class="progress-badge">HTML5</span>
-                <div class="progress">
-                  <div class="progress-bar" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000"
-                    role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 98%">
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="progress-container">
-                <span class="progress-badge">CSS3</span>
-                <div class="progress">
-                  <div class="progress-bar" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000"
-                    role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6">
-              <div class="progress-container">
-                <span class="progress-badge">JavaScript</span>
-                <div class="progress">
-                  <div class="progress-bar" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000"
-                    role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="progress-container">
-                <span class="progress-badge">SASS</span>
-                <div class="progress">
-                  <div class="progress-bar" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000"
-                    role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6">
-              <div class="progress-container">
-                <span class="progress-badge">Bootstrap5</span>
-                <div class="progress">
-                  <div class="progress-bar" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000"
-                    role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="progress-container">
-                <span class="progress-badge">SQL Server</span>
-                <div class="progress">
-                  <div class="progress-bar" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000"
-                    role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-6">
-              <div class="progress-container">
-                <span class="progress-badge">C# ASP.net</span>
-                <div class="progress">
-                  <div class="progress-bar" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000"
-                    role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="progress-container">
-                <span class="progress-badge">Java</span>
-                <div class="progress">
-                  <div class="progress-bar" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000"
-                    role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--END-SKILLS-->
-
-  <!-- --------------------------- Education Section ---------------------------- -->
-  <div class="container">
-    <div class="section mt-5" id="education">
-      <div class="container cc-education">
-        <div class="h3 text-center mb-4 title">Educacion</div>
-        <div class="card">
-          <div class="row">
-            <div class="col-md-3 bg-education card-position" data-aos="fade-right" data-aos-offset="50"
-              data-aos-duration="500">
-              <div class="card-body cc-education-header text-center">
-                <div class="h5">Tecnico Universitario en Programación</div>
-                <p>2019 - 2021</p>
-              </div>
-            </div>
-            <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body">
-                <div class="h4">Tecnicatura Universitaria Programación</div>
-                <p class="category text-muted h6">
-                  Universidad Tecnológica Nacional - FRC Córdoba
-                </p>
-                <div class="container">
-                  <div class="row">
-                    <div class="col-md-6 col-lg-6 category">
-                      <li>
-                        Manejo Base de Datos Relacionales
-                      </li>
-                      <li>Programación C# Desktop - Web con ASP.net</li>
-                      <li>Programación Java</li>
-                      <li>Programación Orientada a Objetos</li>
-                      <li>Continuos Integration Deployment</li>
-                    </div>
-                    <div class="col-md-6 col-lg-6 category">
-                      <li>
-                        Manejo Base de Datos No Relacionales
-                      </li>
-                      <li>HTML5 - CSS3 - Boostrap</li>
-                      <li>Consultas SQL</li>
-                      <li>Arquitectura MVC</li>
-                      <li>Metodologias Agiles y en cascada</li>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card mt-3">
-          <div class="row">
-            <div class="col-md-3 bg-education card-position" data-aos="fade-right" data-aos-offset="50"
-              data-aos-duration="500">
-              <div class="card-body cc-education-header text-center">
-                <div class="h5">English</div>
-                <p>Current</p>
-              </div>
-            </div>
-            <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body">
-                <div class="h5">Level Four -- C2</div>
-                <p class="category text-muted">Go!Idiomas</p>
-                <p>
-                  Euismod massa scelerisque suspendisse fermentum habitant
-                  vitae ullamcorper magna quam iaculis, tristique sapien
-                  taciti mollis interdum sagittis libero nunc inceptos tellus,
-                  hendrerit vel eleifend primis lectus quisque cubilia sed
-                  mauris. Lacinia porta vestibulum diam integer quisque eros
-                  pulvinar curae, curabitur feugiat arcu vivamus parturient
-                  aliquet laoreet at, eu etiam pretium molestie ultricies
-                  sollicitudin dui.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card mt-3">
-          <div class="row">
-            <div class="col-md-3 bg-education card-position" data-aos="fade-right" data-aos-offset="50"
-              data-aos-duration="500">
-              <div class="card-body cc-education-header text-center">
-                <div class="h5">Programación Web</div>
-                <p>2020 - 2021</p>
-              </div>
-            </div>
-            <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body">
-                <div class="h5">x</div>
-                <p class="category text-muted">Udemy</p>
-                <p>
-                <ul>
-                  <li>HTML5</li>
-                  <li>CSS3</li>
-                  <li>Boostrap5</li>
-                  <li>SASS</li>
-                  <li>JavaScript</li>
-                  <li>Git</li>
-                </ul>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- End Education Section -->
-  <!-- -------------------------- Portfolio Section -------------------------- -->
-  <section id="portfolio" class="portfolio section mt-5">
-    <div class="container">
-      <div class="section-title text-center" data-aos="fade-up">
-        <h2 class="h3">Portfolio</h2>
-      </div>
-      <div class="row portfolio-container mt-5" data-aos="fade-up" data-aos-delay="200">
-        <div class="col-lg-6 col-md-6 portfolio-item">
-          <div class="portfolio-wrap">
-            <img src="img/Works/1.jpg" class="img-fluid" alt="" />
-            <div class="portfolio-info">
-              <h4>App 1</h4>
-              <p>App</p>
-              <div class="portfolio-links">
-                <a href="img/Works/1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i
-                    class="bx bx-plus"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-6 col-md-6 portfolio-item">
-          <div class="portfolio-wrap">
-            <img src="img/Works/2.jpg" class="img-fluid" alt="" />
-            <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-6 col-md-6 portfolio-item">
-          <div class="portfolio-wrap">
-            <img src="img/Works/3.jpg" class="img-fluid" alt="" />
-            <div class="portfolio-info">
-              <h4>App 2</h4>
-              <p>App</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-6 col-md-6 portfolio-item">
-          <div class="portfolio-wrap">
-            <img src="img/Works/4.jpg" class="img-fluid" alt="" />
-            <div class="portfolio-info">
-              <h4>Card 2</h4>
-              <p>Card</p>
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery"
-                  class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Portfolio Section -->
-  <!-- ------------------------------- Footer - Contact ------------------------------- -->
-  <footer class="mt-5">
-    <section class="contact">
+    </section>
+    <!-- ------------------------ Personal Information ------------------------- -->
+    <section class="mt-5" id="sobreMi">
       <div class="container">
-        <div class="section-title text-center" id="contacto">
-          <h2 class="pt-4 contact__title">Contacto</h2>
-        </div>
-        <div class="row mt-2 pb-4">
-          <div class="col-12 col-lg-6 mt-4" data-aos="fade-right">
-            <div class="info-box">
-              <i class="bi bi-envelope-open-fill"></i>
-              <div class="text">
-                <h3>¡ Escribeme !</h3>
-                <p>papelgola16@gmail.com</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-lg-6 mt-4" data-aos="fade-left">
-            <div class="info-box">
-              <i class="bi bi-telephone-fill"></i>
-              <div class="text">
-                <h3>¡ LLamame !</h3>
-                <p>+54 9 351 20000 68</p>
+        <div class="h3 text-center mb-4 title">Sobre Mí</div>
+        <div
+          class="card shadow p-3 mb-5 bg-body rounded"
+          data-aos="fade-right"
+          data-aos-duration="1300"
+        >
+          <div class="card-body">
+            <div class="row">
+              <div class="col-12 texts">
+                <p class="texts__copy">
+                  Hola! Soy Ignacio tengo 24 años y soy programador Full-Stack
+                  orientado a Front-end. Desde pequeño soy un apasionado de la
+                  Programación y mis ganas de aprender me impulsaron al
+                  aprendizaje de forma autodidacta hasta mi ingreso a la
+                  Universidad, donde profundice mis conocimientos técnicos.
+                  Estoy cursando la tesis de la
+                  <strong>Tecnicatura Universitaria en Programación</strong> en
+                  la <br /><strong>Universidad Tecnológica Nacional</strong>. En
+                  la actualidad realizo proyectos de manera constante para
+                  entrenar mis habilidades adquiridas e incorporar nuevos
+                  conocimientos y buenas prácticas. Además estoy perfeccionado
+                  mi <strong>inglés</strong> cursando los últimos niveles.
+                </p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-  </footer>
-  <!-- End Contact Section -->
-  <script src="js/aos.js"></script>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script src="https://kit.fontawesome.com/2a53fb5404.js" crossorigin="anonymous"></script>
-  <script>
-    AOS.init();
-    AOS.init({
-      duration: 1200,
-    });
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-    crossorigin="anonymous"></script>
-  <script src="/js/main.js"></script>
-</body>
+    <!-- End Personal Section -->
+    <!-- ----------------------- OBJECTIVE ------------------------ -->
+    <section class="mt-5" id="objective">
+      <div class="container">
+        <div class="h3 text-center mb-4 title">Objetivo</div>
+        <div
+          class="card shadow p-3 mb-5 bg-body rounded ot"
+          data-aos="fade-up"
+          data-aos-duration="1300"
+        >
+          <div class="card-body">
+            <div class="row">
+              <div class="col-12 texts-ox">
+                <p class="texts__copy-ox">
+                  Ingresar en el mundo laboral para desarrollar mis
+                  conocimientos y habilidades , así como también, adquirir
+                  experiencia en las tecnologías actuales y metologías de
+                  trabajo. Demostrar mi capacidad de trabajo en equipo,
+                  proactividad y ganas de seguir aprendiendo.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--END-OBJECTIVE-->
+    <!-- ----------------------- SKILLS ------------------------ -->
+    <section class="section mt-5" id="skill">
+      <div class="container">
+        <div class="h3 text-center mb-4 title">Habilidades</div>
+        <div
+          class="card shadow p-3 mb-5 bg-body rounded"
+          data-aos="fade-right"
+          data-aos-duration="1500"
+        >
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="progress-container">
+                  <span class="progress-badge">HTML5</span>
+                  <div class="progress">
+                    <div
+                      class="progress-bar"
+                      data-aos="progress-full"
+                      data-aos-offset="10"
+                      data-aos-duration="2000"
+                      role="progressbar"
+                      aria-valuenow="60"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                      style="width: 98%"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="progress-container">
+                  <span class="progress-badge">CSS3</span>
+                  <div class="progress">
+                    <div
+                      class="progress-bar"
+                      data-aos="progress-full"
+                      data-aos-offset="10"
+                      data-aos-duration="2000"
+                      role="progressbar"
+                      aria-valuenow="60"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                      style="width: 85%"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="progress-container">
+                  <span class="progress-badge">JavaScript</span>
+                  <div class="progress">
+                    <div
+                      class="progress-bar"
+                      data-aos="progress-full"
+                      data-aos-offset="10"
+                      data-aos-duration="2000"
+                      role="progressbar"
+                      aria-valuenow="60"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                      style="width: 80%"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="progress-container">
+                  <span class="progress-badge">SASS</span>
+                  <div class="progress">
+                    <div
+                      class="progress-bar"
+                      data-aos="progress-full"
+                      data-aos-offset="10"
+                      data-aos-duration="2000"
+                      role="progressbar"
+                      aria-valuenow="60"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                      style="width: 90%"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="progress-container">
+                  <span class="progress-badge">Bootstrap5</span>
+                  <div class="progress">
+                    <div
+                      class="progress-bar"
+                      data-aos="progress-full"
+                      data-aos-offset="10"
+                      data-aos-duration="2000"
+                      role="progressbar"
+                      aria-valuenow="60"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                      style="width: 90%"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="progress-container">
+                  <span class="progress-badge">SQL Server</span>
+                  <div class="progress">
+                    <div
+                      class="progress-bar"
+                      data-aos="progress-full"
+                      data-aos-offset="10"
+                      data-aos-duration="2000"
+                      role="progressbar"
+                      aria-valuenow="60"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                      style="width: 70%"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="progress-container">
+                  <span class="progress-badge">C# ASP.net</span>
+                  <div class="progress">
+                    <div
+                      class="progress-bar"
+                      data-aos="progress-full"
+                      data-aos-offset="10"
+                      data-aos-duration="2000"
+                      role="progressbar"
+                      aria-valuenow="60"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                      style="width: 75%"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="progress-container">
+                  <span class="progress-badge">Java</span>
+                  <div class="progress">
+                    <div
+                      class="progress-bar"
+                      data-aos="progress-full"
+                      data-aos-offset="10"
+                      data-aos-duration="2000"
+                      role="progressbar"
+                      aria-valuenow="60"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                      style="width: 75%"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--END-SKILLS-->
 
+    <!-- --------------------------- Education Section ---------------------------- -->
+    <div class="container">
+      <div class="section mt-5" id="education">
+        <div class="container cc-education">
+          <div class="h3 text-center mb-4 title">Educacion</div>
+          <div class="card">
+            <div class="row">
+              <div
+                class="col-md-3 bg-education card-position"
+                data-aos="fade-right"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body cc-education-header text-center">
+                  <div class="h5 fw-bolder text-white">
+                    Tecnico Universitario en Programación
+                  </div>
+                  <p>2019 - 2021</p>
+                </div>
+              </div>
+              <div
+                class="col-md-9"
+                data-aos="fade-left"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body">
+                  <div class="h4">Tecnicatura Universitaria Programación</div>
+                  <p class="category text-muted h6 fst-italic">
+                    Universidad Tecnológica Nacional - FRC Córdoba
+                  </p>
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-6 col-lg-6 category">
+                        <li>Manejo Base de Datos Relacionales</li>
+                        <li>Programación C# Desktop - Web con ASP.net</li>
+                        <li>Programación Java</li>
+                        <li>Programación Orientada a Objetos</li>
+                        <li>Continuos Integration Deployment</li>
+                      </div>
+                      <div class="col-md-6 col-lg-6 category">
+                        <li>Manejo Base de Datos No Relacionales</li>
+                        <li>HTML5 - CSS3 - Boostrap</li>
+                        <li>Consultas SQL</li>
+                        <li>Arquitectura MVC</li>
+                        <li>Metodologias Agiles y en cascada</li>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mt-3">
+            <div class="row">
+              <div
+                class="col-md-3 bg-education card-position"
+                data-aos="fade-right"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body cc-education-header text-center">
+                  <div class="h5 fw-bolder text-white">English</div>
+                  <p>Current</p>
+                </div>
+              </div>
+              <div
+                class="col-md-9"
+                data-aos="fade-left"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body">
+                  <div class="h4">Level Four -- C2</div>
+                  <p class="category text-muted h6 fst-italic">Go!Idiomas</p>
+                  <p>
+                    Euismod massa scelerisque suspendisse fermentum habitant
+                    vitae ullamcorper magna quam iaculis, tristique sapien
+                    taciti mollis interdum sagittis libero nunc inceptos tellus,
+                    hendrerit vel eleifend primis lectus quisque cubilia sed
+                    mauris. Lacinia porta vestibulum diam integer quisque eros
+                    pulvinar curae, curabitur feugiat arcu vivamus parturient
+                    aliquet laoreet at, eu etiam pretium molestie ultricies
+                    sollicitudin dui.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mt-3">
+            <div class="row">
+              <div
+                class="col-md-3 bg-education card-position"
+                data-aos="fade-right"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body cc-education-header text-center">
+                  <div class="h5 text-white fw-bolder">
+                    Diseño Web - Programación Web
+                  </div>
+                  <p>2020 - 2021</p>
+                </div>
+              </div>
+              <div
+                class="col-md-9"
+                data-aos="fade-left"
+                data-aos-offset="50"
+                data-aos-duration="500"
+              >
+                <div class="card-body">
+                  <div class="h4">x</div>
+                  <p class="category text-muted h6 fst-italic">Udemy</p>
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-6 col-lg-6 category">
+                        <li>Adobe XD</li>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>Mobile first - Responsive Web Design</li>
+                        <li>SASS</li>
+                      </div>
+                      <div class="col-md-6 col-lg-6 category">
+                        <li>JavaScript</li>
+                        <li>Jquery</li>
+                        <li>Hosting</li>
+                        <li>Wordpress</li>
+                        <li>Git</li>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Education Section -->
+    <!-- -------------------------- Portfolio Section -------------------------- -->
+    <section id="portfolio" class="portfolio section mt-5">
+      <div class="container">
+        <div class="section-title text-center" data-aos="fade-up">
+          <h2 class="h3">Portfolio</h2>
+        </div>
+        <div
+          class="row portfolio-container mt-5"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
+          <div class="col-lg-6 col-md-6 portfolio-item">
+            <div class="portfolio-wrap">
+              <img src="img/Works/1.jpg" class="img-fluid" alt="" />
+              <div class="portfolio-info">
+                <h4>App 1</h4>
+                <p>App</p>
+                <div class="portfolio-links">
+                  <a
+                    href="img/Works/1.jpg"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="App 1"
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6 portfolio-item">
+            <div class="portfolio-wrap">
+              <img src="img/Works/2.jpg" class="img-fluid" alt="" />
+              <div class="portfolio-info">
+                <h4>Web 3</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a
+                    href="assets/img/portfolio/portfolio-2.jpg"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="Web 3"
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6 portfolio-item">
+            <div class="portfolio-wrap">
+              <img src="img/Works/3.jpg" class="img-fluid" alt="" />
+              <div class="portfolio-info">
+                <h4>App 2</h4>
+                <p>App</p>
+                <div class="portfolio-links">
+                  <a
+                    href="assets/img/portfolio/portfolio-3.jpg"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="App 2"
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6 portfolio-item">
+            <div class="portfolio-wrap">
+              <img src="img/Works/4.jpg" class="img-fluid" alt="" />
+              <div class="portfolio-info">
+                <h4>Card 2</h4>
+                <p>Card</p>
+                <div class="portfolio-links">
+                  <a
+                    href="assets/img/portfolio/portfolio-4.jpg"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="Card 2"
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Portfolio Section -->
+    <!-- ------------------------------- Footer - Contact ------------------------------- -->
+    <footer class="mt-5">
+      <section class="contact">
+        <div class="container">
+          <div class="section-title text-center" id="contacto">
+            <h2 class="pt-4 contact__title">Contacto</h2>
+          </div>
+          <div class="row mt-2 pb-4">
+            <div class="col-12 col-lg-6 mt-4" data-aos="fade-right">
+              <div class="info-box">
+                <i class="bi bi-envelope-open-fill"></i>
+                <div class="text">
+                  <h3 class="fw-bolder">¡ Escribeme !</h3>
+                  <p>papelgola16@gmail.com</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6 mt-4" data-aos="fade-left">
+              <div class="info-box">
+                <i class="bi bi-telephone-fill"></i>
+                <div class="text">
+                  <h3 class="fw-bolder">¡ LLamame !</h3>
+                  <p>+54 9 351 20000 68</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <!-- End Contact Section -->
+    <script src="js/aos.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script
+      src="https://kit.fontawesome.com/2a53fb5404.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      AOS.init();
+      AOS.init({
+        duration: 1200,
+      });
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js/main.js"></script>
+  </body>
 </html>
