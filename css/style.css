@@ -30,7 +30,13 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 header {
-  background-image: url(/fancy-pants.jpg);
+  background: rgb(70, 32, 32);
+  background: linear-gradient(
+    131deg,
+    rgba(70, 32, 32, 1) 12%,
+    rgba(101, 46, 46, 1) 77%,
+    rgb(39, 33, 33) 100%
+  );
   margin-top: -50px;
   padding: 30px 0;
 }
